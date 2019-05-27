@@ -1,10 +1,12 @@
-# 下载组件
+# 指令
+
+## 默认图片
 
 该指令用于img标签，当img图片资源下载失败或者出错时，会默认加载显示自定义的图片，要求传入自定义的图片路径，否则会报错
 
 作者：zhuping.yuan@zhaopin.com.cn
 
-## 使用示例
+### 使用示例
 ```html
 <template>
     <img src="http://desktop-bucket.zhaopin.cn/pre/assets/1-resume.a3759d.png"
@@ -26,7 +28,7 @@ export default {
 ```
 
 
-## 导入方法 & 定义指令
+### 导入方法 & 定义指令
 ```js
 // 按需导入
 import {image} from 'common/directives'
@@ -44,7 +46,7 @@ export default {
 ```
 
 
-## props    
+### value    
 <table>
     <tr>
         <th>指令</th>
